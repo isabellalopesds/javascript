@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-31 01:32:27 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7REVTS1RPUC1QRjNNVlUyOzIwMjQtMDEtMzE7IjAxOjI4OjE5ICI7MzYxNQ=="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7REVTS1RPUC1QRjNNVlUyOzIwMjQtMDEtMzE7IjAxOjMyOjI3ICI7MTszNzE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="delta" expression="delta(a,b,c)"/>
+            <if expression="delta&gt;=0">
+                <then>
+                    <call expression="raiz(a,b,delta)"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

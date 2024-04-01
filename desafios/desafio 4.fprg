@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 03:55:01 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMzo1NDo1MSAiOzI3OTY="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMzo1NDo1MiAiOzE7RWxvw6FoLk5lZ3Jpbmk7TlQ0MTsyMDI0LTAzLTA0OyIwOToyODo1MiAiO0RFU0FGSU8gNC5mcHJnOzY5Mjk="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMzo1NTowMSAiOzE7MjkwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, D, U" type="Integer" array="False" size=""/>
+            <input variable="C"/>
+            <input variable="D"/>
+            <input variable="U"/>
+            <output expression="C&amp;D&amp;U" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

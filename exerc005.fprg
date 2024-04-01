@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-31 07:50:33 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7REVTS1RPUC1QRjNNVlUyOzIwMjQtMDEtMjk7IjEwOjM4OjQ5ICI7MzYyNg=="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7REVTS1RPUC1QRjNNVlUyOzIwMjQtMDEtMzE7IjA3OjUwOjMzICI7MjszNzIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kg, altura, IMC" type="Real" array="False" size=""/>
+            <input variable="altura"/>
+            <input variable="kg"/>
+            <assign variable="IMC" expression="37/(1.47^2)"/>
+            <output expression="IMC" newline="True"/>
+            <if expression="imc&lt;=18.5">
+                <then>
+                    <assign variable="classe" expression="&quot;MAGREZA&quot;"/>
+                    <output expression="" newline="True"/>
+                </then>
+                <else>
+                    <if expression="imc&lt;=24.9">
+                        <then>
+                            <assign variable="classe" expression="&quot;NORMAL&quot;"/>
+                            <output expression="" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="imc&lt;=29.9">
+                                <then>
+                                    <assign variable="classe" expression="&quot;SOBREPESO&quot;"/>
+                                    <output expression="" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="imc&lt;=39.9">
+                                        <then>
+                                            <assign variable="classe" expression="&quot;OBESIDADE&quot;"/>
+                                            <output expression="" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="classe" expression="&quot;OBESIDADE GRAVE&quot;"/>
+                                            <output expression="" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

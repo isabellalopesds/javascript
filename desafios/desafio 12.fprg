@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:25:02 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjoyMzozNyAiOzI3OTU="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjoyNTowMiAiOzE7Mjg5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, p1, p, n" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <input variable="p1"/>
+            <input variable="n"/>
+            <assign variable="p" expression="(n*r)+p1"/>
+            <output expression="p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

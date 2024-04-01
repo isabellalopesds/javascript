@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:55:44 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwODozNDoyOSAiOzI4MDQ="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIxMDo1NTo0NCAiOzI7MjkwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dd, mm, aaaa, data" type="Integer" array="False" size=""/>
+            <input variable="dd"/>
+            <input variable="mm"/>
+            <input variable="aaaa"/>
+            <assign variable="data" expression="04/03/2024"/>
+            <assign variable="dd" expression="04"/>
+            <assign variable="mm" expression="03"/>
+            <assign variable="aaaa" expression="2024"/>
+            <output expression="dd &amp;&quot;/&quot;&amp;mm&amp;&quot;/&quot;&amp;aaaa" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

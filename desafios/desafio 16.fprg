@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:49:35 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjo0OToyNCAiOzI3OTk="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjo0OToyNiAiOzE7am9hby5wZWRybztOVDI3OzIwMjQtMDMtMDQ7IjAyOjM3OjM1ICI7MTYuZnByZzs2MDcz"/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjo0OTozNSAiOzE7MjkwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cc, vc, dp, kpl" type="Real" array="False" size=""/>
+            <input variable="vc"/>
+            <input variable="dp"/>
+            <input variable="kpl"/>
+            <assign variable="cc" expression="vc*dp/kpl"/>
+            <output expression="&quot;Voc&#234; precisar&#225; dar R$&quot;&amp;cc&amp;&quot; &quot;&amp;&quot;de gasolina pro seu carro beber e te levar ao destino&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

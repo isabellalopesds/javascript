@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:03:56 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMTo0MDowNiAiOzI3ODk="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjowMzo1NiAiOzE7MjkwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, primeiro, ultimo, tres, um, dois, quatro, menosUM, doisU, doisD, tpm" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <input variable="nome"/>
+            <output expression="&quot;NOME COMPLETO&quot;" newline="True"/>
+            <output expression="&quot;nome&quot;" newline="True"/>
+            <assign variable="primeiro" expression="Char(nome,0)"/>
+            <output expression="&quot;A PRIMEIRA LETRA ATE A TERCEIRA &#201;&quot;" newline="True"/>
+            <output expression="quatro" newline="True"/>
+            <assign variable="doisU" expression="Char(nome,len (nome)-1)"/>
+            <assign variable="doisU" expression="Char(nome,len (nome)-2)"/>
+            <output expression="&quot;OS DOIS ULTIMOS SAO&quot;" newline="True"/>
+            <output expression="doisD&amp;doisU" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

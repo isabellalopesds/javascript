@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:32:03 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjoyNTowNCAiOzI3OTE="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjozMjowMyAiOzE7Mjg5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, p, a" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="p" expression="2*pi*r"/>
+            <assign variable="a" expression="pi*(r^2)"/>
+            <output expression="&quot;- O perimetro do circulo &#233;&quot;&amp;&quot; &quot;&amp;p" newline="True"/>
+            <output expression="&quot;- A area do circulo &#233;&quot;&amp;&quot; &quot;&amp;a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

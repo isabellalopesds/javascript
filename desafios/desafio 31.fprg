@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 10:27:30 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA2OyIxMDoyNzoxMiAiOzI3OTM="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA2OyIxMDoyNzoxNSAiOzE7Z2lvdmFubmEubHV6O05UMzQ7MjAyNC0wMy0wNjsiMDk6MjI6MzIgIjtEZXNhZmlvMDMxLmZwcmc7NzA0NQ=="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA2OyIxMDoyNzozMCAiOzE7MjkwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia, mes, ano" type="Integer" array="False" size=""/>
+            <input variable="dia"/>
+            <input variable="mes"/>
+            <input variable="ano"/>
+            <if expression="dia&lt;=31">
+                <then>
+                    <if expression="mes&lt;=12">
+                        <then>
+                            <if expression="ano&lt;2999">
+                                <then>
+                                    <output expression="&quot;essa data &#233; v&#225;lida&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;o ano est&#225; incorreto&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;o mes est&#225; incorreto&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;o dia est&#225; incorreto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

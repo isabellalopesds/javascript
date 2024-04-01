@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 02:48:32 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjo0ODowOSAiOzI4MDE="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjo0ODoxMSAiOzE7am9hby5wZWRybztOVDI3OzIwMjQtMDMtMDQ7IjAxOjQxOjI5ICI7MTIuZnByZzs2MDU5"/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMjo0ODozMiAiOzE7MjkwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, p1, p, n" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <input variable="p1"/>
+            <input variable="n"/>
+            <assign variable="p" expression="(n^r)+p1"/>
+            <output expression="p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

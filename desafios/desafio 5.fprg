@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 10:11:51 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwOTo1NToxNiAiOzI4MDQ="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIxMDoxMTo1MSAiOzE7Mjg5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="KW" type="Integer" array="False" size=""/>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <input variable="salario"/>
+            <assign variable="salario" expression="salario/7"/>
+            <assign variable="salario" expression="salario/100"/>
+            <output expression="salario" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 03:56:43 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMzo1NjozMyAiOzI3OTg="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMzo1NjozNSAiOzE7RWxvw6FoLk5lZ3Jpbmk7TlQ0MTsyMDI0LTAzLTA0OyIwMjo0NTo1NiAiO0RFU0FGSU8gMTkuZnByZzs2OTgy"/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA0OyIwMzo1Njo0MyAiOzE7MjkwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="horas, minutA, minutM" type="Integer" array="False" size=""/>
+            <input variable="horas"/>
+            <input variable="minutA"/>
+            <assign variable="minutM" expression="(horas*60)+minutA"/>
+            <output expression="minutM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

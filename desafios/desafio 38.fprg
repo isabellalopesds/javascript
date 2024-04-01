@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Isabella Lopes"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 04:49:26 "/>
+        <attribute name="created" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA2OyIwNDoyNToxNSAiOzI3OTc="/>
+        <attribute name="edited" value="SXNhYmVsbGEgTG9wZXM7TlQ0MjsyMDI0LTAzLTA2OyIwNDo0OToyNiAiOzE7MjkxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, subtracao, Ai, i" type="Integer" array="False" size=""/>
+            <input variable="soma"/>
+            <input variable="subtracao"/>
+            <output expression="soma" newline="True"/>
+            <output expression="subtracao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
